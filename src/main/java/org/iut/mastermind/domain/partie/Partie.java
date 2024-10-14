@@ -62,11 +62,11 @@ public class Partie {
     }
 
     // vérifie que le nombre d'essais max n'est pas atteint
-    private void verifieNbEssais() {
-        if (nbEssais >= NB_ESSAIS_MAX) {
-            partieTerminee = true;
-        }
-    }
+//    private void verifieNbEssais() {
+//        if (nbEssais >= NB_ESSAIS_MAX) {
+//            done();
+//        }
+//    }
 
     // la partie est-elle terminée
     public boolean isTerminee() {
